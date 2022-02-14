@@ -1,0 +1,21 @@
+import pyautogui
+import keyboard
+
+#Change if you have a different resolution than 1920x1080
+WIDTH = 1920
+HEIGHT = 1080
+
+x_1 = 1750 * (1920 / WIDTH)
+y_1 = 180 * (1080 / HEIGHT)
+
+x_2 = 1000 * (1920 / WIDTH)
+y_2 = 780 * (1080 / HEIGHT)
+
+if __name__ == '__main__':
+
+    while not keyboard.is_pressed('Escape'):
+        pyautogui.moveTo(x_1, y_1)
+        pyautogui.click()
+        pyautogui.moveTo(x_2, y_2)
+        pyautogui.click()
+        pyautogui.press('f5')
