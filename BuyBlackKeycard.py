@@ -5,11 +5,11 @@ import keyboard
 WIDTH = 1920
 HEIGHT = 1080
 
-x_1 = 1750 * (1920 / WIDTH)
-y_1 = 180 * (1080 / HEIGHT)
+x_1 = 1750 * (WIDTH / 1920)
+y_1 = 180 * (HEIGHT / 1080)
 
-x_2 = 1000 * (1920 / WIDTH)
-y_2 = 780 * (1080 / HEIGHT)
+x_2 = 1000 * (WIDTH / 1920)
+y_2 = 780 * (HEIGHT / 1080)
 
 if __name__ == '__main__':
 
