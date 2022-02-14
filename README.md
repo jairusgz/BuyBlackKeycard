@@ -12,6 +12,8 @@
 
 ## How to use
 
+### If you have a different resolution than 1920x1080, open the script with any text editor and change the width and height.
+
 ### Search for Black Keycard on the flea market, allow bartering offers and filter only for traders. Then run the script before the trader restocks and wait for it to buy the keycard. The script is only an auto clicker, so if you are not lucky with the refresh button it may not buy the keycard before it runs out of stock.
 
 ### To stop the script hold Escape.
